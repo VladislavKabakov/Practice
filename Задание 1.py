@@ -2,8 +2,6 @@ side_a = int(input())
 side_b = int(input())
 side_c = int(input())
 
-# Учитывается, что все значения введены правильно (проверку не делал специально) 
-
 if (side_a + side_b) > side_c and (side_b + side_c) > side_a and (side_a + side_c) > side_b:
     if (side_a == side_b) and (side_b == side_c):
         print("Exists. Equilateral")
